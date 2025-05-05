@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { awards, history, ranking, schedule, stats } from "../../../constants/client"
 
 const Nav_Client = () => {
     return (
@@ -6,7 +7,7 @@ const Nav_Client = () => {
 
             <div className="features text-center flex items-center justify-between text-sm">
                 <NavLink
-                    to="#"
+                    to={ranking}
                     className="
                     text-gray-700 
                     flex-1 
@@ -24,7 +25,7 @@ const Nav_Client = () => {
                 </NavLink>
 
                 <NavLink
-                    to="#"
+                    to={schedule}
                     className="
                     text-gray-700 
                     flex-1 
@@ -42,7 +43,7 @@ const Nav_Client = () => {
                 </NavLink>
 
                 <NavLink
-                    to="#"
+                    to={awards}
                     className="
                     text-gray-700 
                     flex-1 
@@ -60,7 +61,7 @@ const Nav_Client = () => {
                 </NavLink>
 
                 <NavLink
-                    to="#"
+                    to={stats}
                     className="
                     text-gray-700 
                     flex-1 
@@ -78,7 +79,7 @@ const Nav_Client = () => {
                 </NavLink>
 
                 <NavLink
-                    to="#"
+                    to={history}
                     className="
                     text-gray-700 
                     flex-1 
